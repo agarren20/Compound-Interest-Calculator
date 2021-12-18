@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(white, navy);
+}
+h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 3px 3px navy;
+  margin: 1cm;
+  text-align: center;
+}
+body { 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  -webkit-text-stroke: 1px rgb(10, 10, 88);
+  font-size: 25px;
+}
+#compInterestCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  display: block;
+  max-width: 70%;
+  transition-property: opacity;
+  transition-duration: 4s;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: auto;
+}
+img:hover {
+  opacity: 0;
+}
+label {
+    font-size: 20px;
+    vertical-align: middle;
+}
+form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
